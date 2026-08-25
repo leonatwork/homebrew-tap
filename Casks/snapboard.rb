@@ -8,7 +8,7 @@ cask "snapboard" do
   desc "Capture screen areas straight to the clipboard"
   homepage "https://github.com/leonatwork/snapboard"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Snapboard.app"
 

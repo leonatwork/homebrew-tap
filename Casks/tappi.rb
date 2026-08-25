@@ -8,7 +8,7 @@ cask "tappi" do
   desc "Windows-style Alt-Tab window switcher"
   homepage "https://github.com/leonatwork/Tappi"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Tappi.app"
 

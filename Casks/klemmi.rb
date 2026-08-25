@@ -8,7 +8,7 @@ cask "klemmi" do
   desc "Clipboard history with source-app attribution"
   homepage "https://github.com/leonatwork/Klemmi"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Klemmi.app"
 
